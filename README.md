@@ -110,7 +110,37 @@ This project is configured for easy deployment to Vercel with both frontend and 
   - Routing API calls to `/api/*` to the backend
   - Serving the frontend for all other routes
 
+## Assumptions Made
+
+1. **Mock Data Structure**: The mock data follows the structure provided in the assignment with employees having an array of tasks.
+
+2. **Task Status Values**: Tasks can have three status values: "Pending", "In Progress", and "Completed".
+
+3. **User Experience**: 
+   - Users should be able to add both employees and tasks
+   - Task filtering should be real-time and intuitive
+   - The dashboard should provide meaningful metrics
+
+4. **Data Persistence**: 
+   - Initially implemented with mock data in JSON file
+   - Enhanced with MongoDB backend for production use
+   - Local storage used for client-side persistence
+
+5. **Authentication**: 
+   - Added JWT-based authentication as an enhancement
+   - Users must sign up/sign in to access the dashboard
+   - Protected routes ensure data security
+
+6. **Responsive Design**: 
+   - Application should work seamlessly on mobile, tablet, and desktop
+   - Dark mode support for better user experience
+
+7. **Performance**: 
+   - Animations should be smooth and not impact performance
+   - Components should be optimized for re-rendering
+
 ## Project Structure
+
 
 
 ```

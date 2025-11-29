@@ -165,19 +165,6 @@ const LandingPage = ({ onGetStarted }) => {
                             transition={{ duration: 0.8 }}
                             className="text-center"
                         >
-                            {/* Badge */}
-                            <motion.div
-                                initial={{ opacity: 0, scale: 0.8 }}
-                                animate={{ opacity: 1, scale: 1 }}
-                                transition={{ delay: 0.2 }}
-                                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 dark:bg-secondary-800/80 backdrop-blur-sm shadow-lg mb-8"
-                            >
-                                <Sparkles className="w-4 h-4 text-gray-700 dark:text-gray-300" />
-                                <span className="text-sm font-semibold bg-gradient-to-r from-gray-700 to-black dark:from-gray-200 dark:to-white bg-clip-text text-transparent">
-                                    Version 2.0 - Now with Enhanced UI
-                                </span>
-                            </motion.div>
-
                             {/* Main Heading */}
                             <motion.h1
                                 initial={{ opacity: 0, y: 20 }}
