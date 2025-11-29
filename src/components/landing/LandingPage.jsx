@@ -212,67 +212,7 @@ const LandingPage = ({ onGetStarted }) => {
                                 </motion.button>
                             </motion.div>
 
-
                         </motion.div>
-                    </div>
-                </section>
-
-                {/* Features Section */}
-                <section className="px-4 sm:px-6 lg:px-8 py-20">
-                    <div className="max-w-7xl mx-auto">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.6 }}
-                            className="text-center mb-16"
-                        >
-                            <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-                                <span className="bg-gradient-to-r from-gray-700 to-black dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
-                                    Powerful Features
-                                </span>
-                            </h2>
-                            <p className="text-xl text-secondary-600 dark:text-secondary-300 max-w-2xl mx-auto">
-                                Everything you need to manage tasks efficiently, all in one beautiful interface
-                            </p>
-                        </motion.div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            {features.map((feature, index) => (
-                                <motion.div
-                                    key={feature.title}
-                                    initial={{ opacity: 0, y: 30 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: index * 0.1, duration: 0.5 }}
-                                    whileHover={{ y: -8, scale: 1.02 }}
-                                    className="group relative p-8 rounded-2xl bg-white/60 dark:bg-secondary-800/60 backdrop-blur-md border border-white/20 dark:border-secondary-700/50 shadow-lg hover:shadow-2xl transition-all duration-300"
-                                >
-                                    {/* Gradient Border on Hover */}
-                                    <div className="absolute inset-0 rounded-2xl bg-gradient-to-r opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-xl"
-                                        style={{ background: `linear-gradient(135deg, var(--tw-gradient-stops))` }} />
-
-                                    {/* Icon */}
-                                    <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                                        <feature.icon className="w-7 h-7 text-white" />
-                                    </div>
-
-                                    {/* Content */}
-                                    <h3 className="text-xl font-bold text-secondary-900 dark:text-white mb-3">
-                                        {feature.title}
-                                    </h3>
-                                    <p className="text-secondary-600 dark:text-secondary-300 leading-relaxed">
-                                        {feature.description}
-                                    </p>
-
-                                    {/* Checkmark */}
-                                    <div className="mt-4 flex items-center gap-2 text-gray-600 dark:text-gray-400">
-                                        <CheckCircle2 className="w-5 h-5" />
-                                        <span className="text-sm font-medium">Available Now</span>
-                                    </div>
-                                </motion.div>
-                            ))}
-                        </div>
                     </div>
                 </section>
 
