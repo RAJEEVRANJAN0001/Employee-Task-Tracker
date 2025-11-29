@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
     ArrowRight,
@@ -17,6 +18,8 @@ import { CornerArrowCard, GlassmorphicCard, FlipCard } from '../ui/InteractiveCa
  * Landing Page Component - Hero and Features
  */
 const LandingPage = ({ onGetStarted }) => {
+    const [showVideo, setShowVideo] = useState(false);
+
     const features = [
         {
             icon: Users,
@@ -204,6 +207,7 @@ const LandingPage = ({ onGetStarted }) => {
                                 <ModernClock onClick={onGetStarted} />
 
                                 <motion.button
+                                    onClick={() => setShowVideo(true)}
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
                                     className="px-8 py-4 bg-white/80 dark:bg-secondary-800/80 backdrop-blur-sm text-secondary-900 dark:text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-secondary-200 dark:border-secondary-700"
@@ -212,6 +216,35 @@ const LandingPage = ({ onGetStarted }) => {
                                 </motion.button>
                             </motion.div>
 
+                            {/* Video Modal */}
+                            {showVideo && (
+                                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={() => setShowVideo(false)}>
+                                    <motion.div
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        animate={{ opacity: 1, scale: 1 }}
+                                        exit={{ opacity: 0, scale: 0.9 }}
+                                        className="relative w-full max-w-5xl bg-black rounded-2xl overflow-hidden shadow-2xl"
+                                        onClick={e => e.stopPropagation()}
+                                    >
+                                        <button
+                                            onClick={() => setShowVideo(false)}
+                                            className="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-black/70 text-white rounded-full transition-colors"
+                                        >
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                        </button>
+                                        <div className="aspect-video w-full">
+                                            <video
+                                                className="w-full h-full object-contain"
+                                                controls
+                                                autoPlay
+                                                src="/demo-video.mp4"
+                                            >
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </motion.div>
+                                </div>
+                            )}
                         </motion.div>
                     </div>
                 </section>
