@@ -1,4 +1,7 @@
-const API_BASE_URL = 'http://localhost:5001/api';
+// Automatically detect environment
+const API_BASE_URL = import.meta.env.PROD 
+    ? '/api'  // Production: use relative path (Vercel will route to serverless function)
+    : 'http://localhost:5001/api';  // Development: use local server
 
 export const api = {
     getEmployees: async () => {
