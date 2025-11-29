@@ -1,4 +1,5 @@
-import { useState } from 'react';
+```javascript
+import { useState, useEffect } from 'react';
 import { useAuth } from './context/AuthContext';
 
 // Landing Page
@@ -16,6 +17,13 @@ function App() {
     const [showLanding, setShowLanding] = useState(true);
     const [showSignUp, setShowSignUp] = useState(false);
 
+    // Reset showLanding when user logs out
+    useEffect(() => {
+        if (!isAuthenticated) {
+            setShowLanding(true);
+        }
+    }, [isAuthenticated]);
+
     // Show loading state while checking authentication
     if (isLoading) {
         return (
@@ -28,23 +36,23 @@ function App() {
         );
     }
 
-    // If not authenticated
-    if (!isAuthenticated) {
-        // Show landing page first
-        if (showLanding) {
-            return <LandingPage onGetStarted={() => setShowLanding(false)} />;
-        }
-
-        // Then show auth pages
-        return showSignUp ? (
-            <SignUp onSwitchToSignIn={() => setShowSignUp(false)} />
-        ) : (
-            <SignIn onSwitchToSignUp={() => setShowSignUp(true)} />
-        );
+    // If authenticated, show the dashboard directly
+    if (isAuthenticated) {
+        return <Dashboard />;
     }
 
-    // If authenticated, show the dashboard
-    return <Dashboard />;
+    // If not authenticated, show landing page first, then auth pages
+    if (showLanding) {
+        return <LandingPage onGetStarted={() => setShowLanding(false)} />;
+    }
+    
+    // Show auth pages
+    return showSignUp ? (
+        <SignUp onSwitchToSignIn={() => setShowSignUp(false)} />
+    ) : (
+        <SignIn onSwitchToSignUp={() => setShowSignUp(true)} />
+    );
 }
 
 export default App;
+```
