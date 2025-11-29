@@ -10,6 +10,8 @@ import {
     TrendingUp
 } from 'lucide-react';
 import ModernClock from './ModernClock';
+import { CornerArrowCard, GlassmorphicCard, FlipCard } from '../ui/InteractiveCards';
+
 
 /**
  * Landing Page Component - Hero and Features
@@ -270,6 +272,115 @@ const LandingPage = ({ onGetStarted }) => {
                                     </div>
                                 </motion.div>
                             ))}
+                        </div>
+                    </div>
+                </section>
+
+                {/* Interactive Showcase Section */}
+                <section className="px-4 sm:px-6 lg:px-8 py-20 bg-gradient-to-b from-transparent to-gray-100 dark:to-gray-900">
+                    <div className="max-w-7xl mx-auto">
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6 }}
+                            className="text-center mb-16"
+                        >
+                            <h2 className="text-4xl sm:text-5xl font-bold mb-4">
+                                <span className="bg-gradient-to-r from-gray-700 to-black dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+                                    Interactive Experience
+                                </span>
+                            </h2>
+                            <p className="text-xl text-secondary-600 dark:text-secondary-300 max-w-2xl mx-auto">
+                                Explore our interactive card designs with stunning animations
+                            </p>
+                        </motion.div>
+
+                        {/* Cards Grid */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start justify-items-center">
+                            {/* Corner Arrow Cards */}
+                            <motion.div
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.1, duration: 0.5 }}
+                            >
+                                <CornerArrowCard
+                                    title="Team Management"
+                                    description="Manage your entire team with beautiful employee cards and real-time task tracking. Stay organized and productive."
+                                />
+                            </motion.div>
+
+                            {/* Glassmorphic Card */}
+                            <motion.div
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.2, duration: 0.5 }}
+                            >
+                                <GlassmorphicCard
+                                    icon={Sparkles}
+                                    title="Premium Design"
+                                    description="Experience modern design with glassmorphism effects, smooth animations, and stunning visual feedback that makes every interaction delightful."
+                                />
+                            </motion.div>
+
+                            {/* Flip Card */}
+                            <motion.div
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.3, duration: 0.5 }}
+                                className="flex justify-center"
+                            >
+                                <FlipCard
+                                    frontTitle="Hover Me!"
+                                    frontContent="Interactive flip animation"
+                                    backTitle="Amazing!"
+                                    backContent="Smooth 3D transitions"
+                                />
+                            </motion.div>
+
+                            {/* Additional Cards */}
+                            <motion.div
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.4, duration: 0.5 }}
+                            >
+                                <CornerArrowCard
+                                    title="Task Tracking"
+                                    description="Create, assign, and monitor tasks with status updates. Filter by status and get real-time insights into team progress."
+                                />
+                            </motion.div>
+
+                            <motion.div
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.5, duration: 0.5 }}
+                            >
+                                <GlassmorphicCard
+                                    icon={BarChart3}
+                                    title="Analytics"
+                                    description="Get comprehensive insights with real-time metrics, productivity analytics, and visual charts that help you make data-driven decisions."
+                                />
+                            </motion.div>
+
+                            <motion.div
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: 0.6, duration: 0.5 }}
+                                className="flex justify-center"
+                            >
+                                <FlipCard
+                                    frontTitle="Features"
+                                    frontContent="Modern & Responsive"
+                                    backTitle="Benefits"
+                                    backContent="Boost Productivity"
+                                />
+                            </motion.div>
                         </div>
                     </div>
                 </section>
