@@ -198,18 +198,18 @@ export const GlassmorphicCard = ({ icon: Icon, title, description }) => {
  */
 export const FlipCard = ({ frontTitle, backTitle, frontContent, backContent }) => {
     return (
-        <div className="flip-card w-full max-w-[300px] h-[180px] sm:h-[200px]" style={{ perspective: '1000px' }}>
+        <div className="flip-card w-full max-w-[300px] min-w-[260px] h-[180px] sm:h-[200px]" style={{ perspective: '1000px' }}>
             <div className="flip-card-inner w-full h-full relative transition-transform duration-1000" style={{ transformStyle: 'preserve-3d' }}>
                 {/* Front */}
-                <div className="flip-card-front absolute w-full h-full bg-gradient-to-br from-sky-500 to-sky-700 text-white flex flex-col items-center justify-center border-[8px] sm:border-[10px] border-sky-600 rounded-xl text-lg sm:text-xl font-bold p-3 sm:p-4" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(0deg)' }}>
-                    <p className="mb-1 sm:mb-2 text-center leading-tight">{frontTitle}</p>
-                    {frontContent && <p className="text-xs sm:text-sm font-normal text-center leading-snug">{frontContent}</p>}
+                <div className="flip-card-front absolute w-full h-full bg-gradient-to-br from-sky-500 to-sky-700 text-white flex flex-col items-center justify-center border-[8px] sm:border-[10px] border-sky-600 rounded-xl text-base sm:text-xl font-bold p-3 sm:p-4" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(0deg)' }}>
+                    <p className="mb-1 sm:mb-2 text-center leading-tight break-words w-full">{frontTitle}</p>
+                    {frontContent && <p className="text-xs sm:text-sm font-normal text-center leading-snug break-words w-full">{frontContent}</p>}
                 </div>
 
                 {/* Back */}
-                <div className="flip-card-back absolute w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 text-white flex flex-col items-center justify-center border-[8px] sm:border-[10px] border-gray-700 rounded-xl text-lg sm:text-xl font-bold p-3 sm:p-4" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
-                    <p className="mb-1 sm:mb-2 text-center leading-tight">{backTitle}</p>
-                    {backContent && <p className="text-xs sm:text-sm font-normal text-center leading-snug">{backContent}</p>}
+                <div className="flip-card-back absolute w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 text-white flex flex-col items-center justify-center border-[8px] sm:border-[10px] border-gray-700 rounded-xl text-base sm:text-xl font-bold p-3 sm:p-4" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
+                    <p className="mb-1 sm:mb-2 text-center leading-tight break-words w-full">{backTitle}</p>
+                    {backContent && <p className="text-xs sm:text-sm font-normal text-center leading-snug break-words w-full">{backContent}</p>}
                 </div>
             </div>
 
