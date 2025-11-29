@@ -1,4 +1,3 @@
-```javascript
 import { useState, useEffect } from 'react';
 import { useAuth } from './context/AuthContext';
 
@@ -45,7 +44,7 @@ function App() {
     if (showLanding) {
         return <LandingPage onGetStarted={() => setShowLanding(false)} />;
     }
-    
+
     // Show auth pages
     return showSignUp ? (
         <SignUp onSwitchToSignIn={() => setShowSignUp(false)} />
@@ -55,4 +54,3 @@ function App() {
 }
 
 export default App;
-```
