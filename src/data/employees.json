@@ -1,0 +1,1176 @@
+[
+    {
+        "id": 1,
+        "name": "Ashley Lopez",
+        "role": "Mobile Developer",
+        "department": "Operations",
+        "email": "ashley.lopez@example.com",
+        "age": 36,
+        "gender": "Non-binary",
+        "bio": "Experienced Mobile Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/95.jpg",
+        "tasks": [
+            {
+                "id": 100,
+                "title": "Fix login bug",
+                "description": "Description for update dashboard ui",
+                "status": "Completed",
+                "createdAt": "2025-11-17T19:50:23.828Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 101,
+                "title": "Review PR #123",
+                "description": "Description for configure aws s3",
+                "status": "Completed",
+                "createdAt": "2025-11-26T01:31:58.962Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 102,
+                "title": "Review PR #123",
+                "description": "Description for setup monitoring",
+                "status": "In Progress",
+                "createdAt": "2025-11-18T04:02:08.782Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Lisa Moore",
+        "role": "Mobile Developer",
+        "department": "Marketing",
+        "email": "lisa.moore@example.com",
+        "age": 45,
+        "gender": "Non-binary",
+        "bio": "Experienced Mobile Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/64.jpg",
+        "tasks": [
+            {
+                "id": 200,
+                "title": "Setup monitoring",
+                "description": "Description for create mobile layout",
+                "status": "Completed",
+                "createdAt": "2025-11-22T06:52:13.782Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 201,
+                "title": "Fix memory leak",
+                "description": "Description for configure aws s3",
+                "status": "In Progress",
+                "createdAt": "2025-11-25T11:38:55.357Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 202,
+                "title": "Setup monitoring",
+                "description": "Description for implement oauth",
+                "status": "In Progress",
+                "createdAt": "2025-11-22T10:09:28.481Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 203,
+                "title": "Update dependencies",
+                "description": "Description for optimize database queries",
+                "status": "Completed",
+                "createdAt": "2025-11-22T18:49:10.587Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Jennifer Gonzalez",
+        "role": "Mobile Developer",
+        "department": "Operations",
+        "email": "jennifer.gonzalez@example.com",
+        "age": 33,
+        "gender": "Female",
+        "bio": "Experienced Mobile Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/61.jpg",
+        "tasks": [
+            {
+                "id": 300,
+                "title": "Configure AWS S3",
+                "description": "Description for refactor legacy code",
+                "status": "In Progress",
+                "createdAt": "2025-11-23T02:09:11.953Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 301,
+                "title": "Update dependencies",
+                "description": "Description for configure aws s3",
+                "status": "Pending",
+                "createdAt": "2025-11-29T05:14:28.279Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 302,
+                "title": "Refactor legacy code",
+                "description": "Description for fix login bug",
+                "status": "In Progress",
+                "createdAt": "2025-11-24T07:27:05.680Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 303,
+                "title": "Create unit tests",
+                "description": "Description for design new logo",
+                "status": "Pending",
+                "createdAt": "2025-11-24T18:29:11.434Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Donald Martinez",
+        "role": "UI/UX Designer",
+        "department": "Product",
+        "email": "donald.martinez@example.com",
+        "age": 37,
+        "gender": "Male",
+        "bio": "Experienced UI/UX Designer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+        "tasks": [
+            {
+                "id": 400,
+                "title": "Update dependencies",
+                "description": "Description for fix login bug",
+                "status": "Completed",
+                "createdAt": "2025-11-26T18:53:19.259Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 401,
+                "title": "Update dashboard UI",
+                "description": "Description for create unit tests",
+                "status": "In Progress",
+                "createdAt": "2025-11-25T10:10:43.635Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 402,
+                "title": "Fix memory leak",
+                "description": "Description for refactor legacy code",
+                "status": "Completed",
+                "createdAt": "2025-11-18T05:24:31.353Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 403,
+                "title": "Implement OAuth",
+                "description": "Description for refactor legacy code",
+                "status": "Completed",
+                "createdAt": "2025-11-25T20:48:29.083Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Charles Martin",
+        "role": "Security Specialist",
+        "department": "Marketing",
+        "email": "charles.martin@example.com",
+        "age": 39,
+        "gender": "Male",
+        "bio": "Experienced Security Specialist with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/80.jpg",
+        "tasks": [
+            {
+                "id": 500,
+                "title": "Add payment gateway",
+                "description": "Description for create landing page",
+                "status": "Completed",
+                "createdAt": "2025-11-19T01:26:36.237Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 501,
+                "title": "Migrate to TypeScript",
+                "description": "Description for create mobile layout",
+                "status": "In Progress",
+                "createdAt": "2025-11-22T23:32:55.042Z",
+                "updatedAt": "2025-11-29T09:35:10.431Z"
+            },
+            {
+                "id": 502,
+                "title": "Update dependencies",
+                "description": "Description for add payment gateway",
+                "status": "In Progress",
+                "createdAt": "2025-11-21T07:56:30.672Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Mary Gonzalez",
+        "role": "Data Analyst",
+        "department": "Product",
+        "email": "mary.gonzalez@example.com",
+        "age": 52,
+        "gender": "Female",
+        "bio": "Experienced Data Analyst with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg",
+        "tasks": [
+            {
+                "id": 600,
+                "title": "Create landing page",
+                "description": "Description for setup monitoring",
+                "status": "Pending",
+                "createdAt": "2025-11-25T02:19:42.050Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 601,
+                "title": "Configure AWS S3",
+                "description": "Description for fix login bug",
+                "status": "In Progress",
+                "createdAt": "2025-11-18T00:00:28.697Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 602,
+                "title": "Implement OAuth",
+                "description": "Description for update dashboard ui",
+                "status": "Pending",
+                "createdAt": "2025-11-22T21:23:28.947Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "John Perez",
+        "role": "Frontend Developer",
+        "department": "Sales",
+        "email": "john.perez@example.com",
+        "age": 52,
+        "gender": "Female",
+        "bio": "Experienced Frontend Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/60.jpg",
+        "tasks": [
+            {
+                "id": 700,
+                "title": "Optimize database queries",
+                "description": "Description for configure aws s3",
+                "status": "In Progress",
+                "createdAt": "2025-11-20T07:31:13.457Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 701,
+                "title": "Migrate to TypeScript",
+                "description": "Description for refactor legacy code",
+                "status": "In Progress",
+                "createdAt": "2025-11-19T11:23:21.365Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 702,
+                "title": "Fix memory leak",
+                "description": "Description for fix login bug",
+                "status": "Completed",
+                "createdAt": "2025-11-25T04:05:45.322Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 703,
+                "title": "Update dashboard UI",
+                "description": "Description for optimize database queries",
+                "status": "In Progress",
+                "createdAt": "2025-11-27T13:10:51.642Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Charles Johnson",
+        "role": "Data Analyst",
+        "department": "Sales",
+        "email": "charles.johnson@example.com",
+        "age": 26,
+        "gender": "Female",
+        "bio": "Experienced Data Analyst with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/76.jpg",
+        "tasks": [
+            {
+                "id": 800,
+                "title": "Fix login bug",
+                "description": "Description for write api documentation",
+                "status": "In Progress",
+                "createdAt": "2025-11-24T02:25:27.833Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 801,
+                "title": "Conduct user research",
+                "description": "Description for fix memory leak",
+                "status": "Pending",
+                "createdAt": "2025-11-24T01:41:53.927Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 802,
+                "title": "Optimize database queries",
+                "description": "Description for setup monitoring",
+                "status": "Pending",
+                "createdAt": "2025-11-28T05:43:04.156Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 803,
+                "title": "Configure AWS S3",
+                "description": "Description for fix memory leak",
+                "status": "In Progress",
+                "createdAt": "2025-11-28T23:31:58.248Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Anthony Davis",
+        "role": "QA Engineer",
+        "department": "Sales",
+        "email": "anthony.davis@example.com",
+        "age": 24,
+        "gender": "Non-binary",
+        "bio": "Experienced QA Engineer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/26.jpg",
+        "tasks": [
+            {
+                "id": 900,
+                "title": "Implement OAuth",
+                "description": "Description for setup ci/cd pipeline",
+                "status": "In Progress",
+                "createdAt": "2025-11-20T06:10:14.320Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Linda Lee",
+        "role": "Senior Developer",
+        "department": "Sales",
+        "email": "linda.lee@example.com",
+        "age": 41,
+        "gender": "Male",
+        "bio": "Experienced Senior Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/35.jpg",
+        "tasks": [
+            {
+                "id": 1000,
+                "title": "Add payment gateway",
+                "description": "Description for implement dark mode",
+                "status": "Pending",
+                "createdAt": "2025-11-27T05:36:58.668Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1001,
+                "title": "Setup CI/CD pipeline",
+                "description": "Description for design new logo",
+                "status": "In Progress",
+                "createdAt": "2025-11-22T11:01:11.104Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1002,
+                "title": "Refactor legacy code",
+                "description": "Description for fix memory leak",
+                "status": "Completed",
+                "createdAt": "2025-11-24T04:23:05.823Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1003,
+                "title": "Add payment gateway",
+                "description": "Description for write api documentation",
+                "status": "Completed",
+                "createdAt": "2025-11-19T06:31:42.038Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Susan Smith",
+        "role": "Backend Engineer",
+        "department": "Operations",
+        "email": "susan.smith@example.com",
+        "age": 53,
+        "gender": "Male",
+        "bio": "Experienced Backend Engineer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/84.jpg",
+        "tasks": [
+            {
+                "id": 1100,
+                "title": "Fix memory leak",
+                "description": "Description for setup ci/cd pipeline",
+                "status": "Completed",
+                "createdAt": "2025-11-17T20:16:06.086Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "David Smith",
+        "role": "Frontend Developer",
+        "department": "Product",
+        "email": "david.smith@example.com",
+        "age": 47,
+        "gender": "Male",
+        "bio": "Experienced Frontend Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/17.jpg",
+        "tasks": [
+            {
+                "id": 1200,
+                "title": "Design new logo",
+                "description": "Description for implement oauth",
+                "status": "Completed",
+                "createdAt": "2025-11-18T03:44:02.125Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Sarah Jones",
+        "role": "Full Stack Developer",
+        "department": "Operations",
+        "email": "sarah.jones@example.com",
+        "age": 32,
+        "gender": "Male",
+        "bio": "Experienced Full Stack Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/97.jpg",
+        "tasks": [
+            {
+                "id": 1300,
+                "title": "Fix login bug",
+                "description": "Description for create mobile layout",
+                "status": "Completed",
+                "createdAt": "2025-11-25T03:10:59.630Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1301,
+                "title": "Implement dark mode",
+                "description": "Description for create landing page",
+                "status": "Pending",
+                "createdAt": "2025-11-29T08:09:43.759Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Matthew Johnson",
+        "role": "Data Analyst",
+        "department": "Sales",
+        "email": "matthew.johnson@example.com",
+        "age": 27,
+        "gender": "Female",
+        "bio": "Experienced Data Analyst with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/21.jpg",
+        "tasks": [
+            {
+                "id": 1400,
+                "title": "Conduct user research",
+                "description": "Description for write api documentation",
+                "status": "Pending",
+                "createdAt": "2025-11-19T00:31:09.237Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1401,
+                "title": "Implement dark mode",
+                "description": "Description for implement dark mode",
+                "status": "Pending",
+                "createdAt": "2025-11-26T03:21:07.832Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1402,
+                "title": "Conduct user research",
+                "description": "Description for create landing page",
+                "status": "In Progress",
+                "createdAt": "2025-11-22T19:09:52.037Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1403,
+                "title": "Configure AWS S3",
+                "description": "Description for migrate to typescript",
+                "status": "Pending",
+                "createdAt": "2025-11-26T06:09:17.063Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1404,
+                "title": "Create landing page",
+                "description": "Description for update dependencies",
+                "status": "Completed",
+                "createdAt": "2025-11-27T15:33:30.439Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Jennifer Davis",
+        "role": "UI/UX Designer",
+        "department": "Engineering",
+        "email": "jennifer.davis@example.com",
+        "age": 49,
+        "gender": "Male",
+        "bio": "Experienced UI/UX Designer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+        "tasks": [
+            {
+                "id": 1500,
+                "title": "Create landing page",
+                "description": "Description for fix memory leak",
+                "status": "Pending",
+                "createdAt": "2025-11-18T02:55:59.254Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1501,
+                "title": "Update dashboard UI",
+                "description": "Description for design new logo",
+                "status": "In Progress",
+                "createdAt": "2025-11-22T13:03:31.035Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1502,
+                "title": "Write API documentation",
+                "description": "Description for update dependencies",
+                "status": "Completed",
+                "createdAt": "2025-11-18T21:59:19.000Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1503,
+                "title": "Create mobile layout",
+                "description": "Description for fix login bug",
+                "status": "Pending",
+                "createdAt": "2025-11-23T05:51:42.451Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1504,
+                "title": "Refactor legacy code",
+                "description": "Description for create landing page",
+                "status": "Completed",
+                "createdAt": "2025-11-25T20:43:33.024Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Mary Johnson",
+        "role": "Backend Engineer",
+        "department": "Engineering",
+        "email": "mary.johnson@example.com",
+        "age": 36,
+        "gender": "Female",
+        "bio": "Experienced Backend Engineer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/75.jpg",
+        "tasks": [
+            {
+                "id": 1600,
+                "title": "Update dependencies",
+                "description": "Description for review pr #123",
+                "status": "Completed",
+                "createdAt": "2025-11-27T06:11:29.899Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Richard Lewis",
+        "role": "Frontend Developer",
+        "department": "Design",
+        "email": "richard.lewis@example.com",
+        "age": 45,
+        "gender": "Non-binary",
+        "bio": "Experienced Frontend Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/40.jpg",
+        "tasks": [
+            {
+                "id": 1700,
+                "title": "Fix memory leak",
+                "description": "Description for refactor legacy code",
+                "status": "Pending",
+                "createdAt": "2025-11-24T05:49:57.351Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1701,
+                "title": "Optimize database queries",
+                "description": "Description for update dashboard ui",
+                "status": "Completed",
+                "createdAt": "2025-11-20T10:53:09.323Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Lisa Clark",
+        "role": "QA Engineer",
+        "department": "Product",
+        "email": "lisa.clark@example.com",
+        "age": 40,
+        "gender": "Non-binary",
+        "bio": "Experienced QA Engineer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/54.jpg",
+        "tasks": [
+            {
+                "id": 1800,
+                "title": "Optimize database queries",
+                "description": "Description for setup ci/cd pipeline",
+                "status": "Pending",
+                "createdAt": "2025-11-24T13:03:42.819Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1801,
+                "title": "Create landing page",
+                "description": "Description for add payment gateway",
+                "status": "Completed",
+                "createdAt": "2025-11-27T14:23:33.304Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1802,
+                "title": "Setup CI/CD pipeline",
+                "description": "Description for setup monitoring",
+                "status": "Completed",
+                "createdAt": "2025-11-18T20:18:34.591Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Linda Miller",
+        "role": "Data Analyst",
+        "department": "Marketing",
+        "email": "linda.miller@example.com",
+        "age": 22,
+        "gender": "Non-binary",
+        "bio": "Experienced Data Analyst with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/33.jpg",
+        "tasks": [
+            {
+                "id": 1900,
+                "title": "Optimize database queries",
+                "description": "Description for implement oauth",
+                "status": "Completed",
+                "createdAt": "2025-11-23T23:18:39.101Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1901,
+                "title": "Write API documentation",
+                "description": "Description for setup monitoring",
+                "status": "Completed",
+                "createdAt": "2025-11-25T20:51:25.754Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1902,
+                "title": "Implement OAuth",
+                "description": "Description for fix login bug",
+                "status": "Pending",
+                "createdAt": "2025-11-29T07:47:20.616Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 1903,
+                "title": "Setup monitoring",
+                "description": "Description for update dependencies",
+                "status": "Pending",
+                "createdAt": "2025-11-24T20:36:13.848Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "William Taylor",
+        "role": "Product Manager",
+        "department": "Design",
+        "email": "william.taylor@example.com",
+        "age": 46,
+        "gender": "Male",
+        "bio": "Experienced Product Manager with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/25.jpg",
+        "tasks": [
+            {
+                "id": 2000,
+                "title": "Setup monitoring",
+                "description": "Description for configure aws s3",
+                "status": "Pending",
+                "createdAt": "2025-11-28T01:26:30.643Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2001,
+                "title": "Configure AWS S3",
+                "description": "Description for implement dark mode",
+                "status": "In Progress",
+                "createdAt": "2025-11-20T14:56:59.518Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2002,
+                "title": "Create unit tests",
+                "description": "Description for create unit tests",
+                "status": "Completed",
+                "createdAt": "2025-11-23T04:29:53.594Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Christopher Rodriguez",
+        "role": "Security Specialist",
+        "department": "Design",
+        "email": "christopher.rodriguez@example.com",
+        "age": 52,
+        "gender": "Male",
+        "bio": "Experienced Security Specialist with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/46.jpg",
+        "tasks": [
+            {
+                "id": 2100,
+                "title": "Create mobile layout",
+                "description": "Description for update dependencies",
+                "status": "In Progress",
+                "createdAt": "2025-11-23T02:14:00.351Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Nancy Davis",
+        "role": "Backend Engineer",
+        "department": "Operations",
+        "email": "nancy.davis@example.com",
+        "age": 27,
+        "gender": "Female",
+        "bio": "Experienced Backend Engineer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/11.jpg",
+        "tasks": [
+            {
+                "id": 2200,
+                "title": "Write API documentation",
+                "description": "Description for conduct user research",
+                "status": "Pending",
+                "createdAt": "2025-11-27T02:33:47.248Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2201,
+                "title": "Refactor legacy code",
+                "description": "Description for add payment gateway",
+                "status": "Completed",
+                "createdAt": "2025-11-28T14:26:57.907Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Christopher Martin",
+        "role": "Mobile Developer",
+        "department": "Operations",
+        "email": "christopher.martin@example.com",
+        "age": 45,
+        "gender": "Female",
+        "bio": "Experienced Mobile Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/90.jpg",
+        "tasks": [
+            {
+                "id": 2300,
+                "title": "Create mobile layout",
+                "description": "Description for setup monitoring",
+                "status": "Completed",
+                "createdAt": "2025-11-18T10:34:25.383Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2301,
+                "title": "Update dependencies",
+                "description": "Description for setup ci/cd pipeline",
+                "status": "Completed",
+                "createdAt": "2025-11-25T10:15:37.323Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2302,
+                "title": "Create unit tests",
+                "description": "Description for create unit tests",
+                "status": "Completed",
+                "createdAt": "2025-11-28T00:18:52.560Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2303,
+                "title": "Write API documentation",
+                "description": "Description for setup monitoring",
+                "status": "Pending",
+                "createdAt": "2025-11-19T14:29:24.620Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2304,
+                "title": "Add payment gateway",
+                "description": "Description for implement dark mode",
+                "status": "Completed",
+                "createdAt": "2025-11-22T10:28:15.302Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Ashley Lee",
+        "role": "Full Stack Developer",
+        "department": "Operations",
+        "email": "ashley.lee@example.com",
+        "age": 55,
+        "gender": "Non-binary",
+        "bio": "Experienced Full Stack Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/91.jpg",
+        "tasks": [
+            {
+                "id": 2400,
+                "title": "Optimize database queries",
+                "description": "Description for write api documentation",
+                "status": "Completed",
+                "createdAt": "2025-11-18T07:14:54.575Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2401,
+                "title": "Conduct user research",
+                "description": "Description for refactor legacy code",
+                "status": "In Progress",
+                "createdAt": "2025-11-20T04:00:31.654Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2402,
+                "title": "Fix memory leak",
+                "description": "Description for create unit tests",
+                "status": "Completed",
+                "createdAt": "2025-11-19T07:15:09.866Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2403,
+                "title": "Update dashboard UI",
+                "description": "Description for implement oauth",
+                "status": "Completed",
+                "createdAt": "2025-11-23T07:30:59.478Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "James Walker",
+        "role": "UI/UX Designer",
+        "department": "Operations",
+        "email": "james.walker@example.com",
+        "age": 40,
+        "gender": "Non-binary",
+        "bio": "Experienced UI/UX Designer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/48.jpg",
+        "tasks": [
+            {
+                "id": 2500,
+                "title": "Migrate to TypeScript",
+                "description": "Description for create mobile layout",
+                "status": "Pending",
+                "createdAt": "2025-11-20T08:25:02.477Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2501,
+                "title": "Create mobile layout",
+                "description": "Description for write api documentation",
+                "status": "Completed",
+                "createdAt": "2025-11-21T22:23:15.960Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2502,
+                "title": "Implement dark mode",
+                "description": "Description for update dashboard ui",
+                "status": "In Progress",
+                "createdAt": "2025-11-20T00:17:32.308Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2503,
+                "title": "Create landing page",
+                "description": "Description for create mobile layout",
+                "status": "Pending",
+                "createdAt": "2025-11-22T06:23:12.630Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Jennifer Gonzalez",
+        "role": "QA Engineer",
+        "department": "Operations",
+        "email": "jennifer.gonzalez@example.com",
+        "age": 47,
+        "gender": "Male",
+        "bio": "Experienced QA Engineer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/79.jpg",
+        "tasks": [
+            {
+                "id": 2600,
+                "title": "Fix memory leak",
+                "description": "Description for create landing page",
+                "status": "Pending",
+                "createdAt": "2025-11-25T09:38:50.502Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2601,
+                "title": "Conduct user research",
+                "description": "Description for setup ci/cd pipeline",
+                "status": "Pending",
+                "createdAt": "2025-11-23T12:38:49.042Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2602,
+                "title": "Create landing page",
+                "description": "Description for setup ci/cd pipeline",
+                "status": "Pending",
+                "createdAt": "2025-11-20T02:19:18.870Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Jessica Robinson",
+        "role": "QA Engineer",
+        "department": "Operations",
+        "email": "jessica.robinson@example.com",
+        "age": 24,
+        "gender": "Non-binary",
+        "bio": "Experienced QA Engineer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/50.jpg",
+        "tasks": [
+            {
+                "id": 2700,
+                "title": "Create mobile layout",
+                "description": "Description for write api documentation",
+                "status": "In Progress",
+                "createdAt": "2025-11-27T21:56:35.977Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2701,
+                "title": "Refactor legacy code",
+                "description": "Description for refactor legacy code",
+                "status": "Pending",
+                "createdAt": "2025-11-18T14:20:08.123Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2702,
+                "title": "Fix memory leak",
+                "description": "Description for update dependencies",
+                "status": "Pending",
+                "createdAt": "2025-11-18T21:18:36.786Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2703,
+                "title": "Conduct user research",
+                "description": "Description for migrate to typescript",
+                "status": "Pending",
+                "createdAt": "2025-11-18T14:40:50.740Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Anthony Sanchez",
+        "role": "Senior Developer",
+        "department": "Sales",
+        "email": "anthony.sanchez@example.com",
+        "age": 26,
+        "gender": "Non-binary",
+        "bio": "Experienced Senior Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+        "tasks": [
+            {
+                "id": 2800,
+                "title": "Write API documentation",
+                "description": "Description for setup monitoring",
+                "status": "Pending",
+                "createdAt": "2025-11-29T07:12:51.404Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2801,
+                "title": "Review PR #123",
+                "description": "Description for add payment gateway",
+                "status": "Pending",
+                "createdAt": "2025-11-20T08:10:34.689Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2802,
+                "title": "Update dashboard UI",
+                "description": "Description for implement dark mode",
+                "status": "Pending",
+                "createdAt": "2025-11-19T08:36:38.851Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2803,
+                "title": "Update dashboard UI",
+                "description": "Description for fix memory leak",
+                "status": "Pending",
+                "createdAt": "2025-11-27T06:26:23.972Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2804,
+                "title": "Add payment gateway",
+                "description": "Description for fix memory leak",
+                "status": "Completed",
+                "createdAt": "2025-11-28T14:07:02.140Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Patricia Lopez",
+        "role": "Product Manager",
+        "department": "HR",
+        "email": "patricia.lopez@example.com",
+        "age": 54,
+        "gender": "Female",
+        "bio": "Experienced Product Manager with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+        "tasks": [
+            {
+                "id": 2900,
+                "title": "Fix login bug",
+                "description": "Description for fix login bug",
+                "status": "Pending",
+                "createdAt": "2025-11-27T08:20:01.498Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2901,
+                "title": "Implement dark mode",
+                "description": "Description for migrate to typescript",
+                "status": "Pending",
+                "createdAt": "2025-11-22T01:12:42.603Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2902,
+                "title": "Implement OAuth",
+                "description": "Description for update dependencies",
+                "status": "Completed",
+                "createdAt": "2025-11-27T15:47:23.107Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 2903,
+                "title": "Setup CI/CD pipeline",
+                "description": "Description for create landing page",
+                "status": "Completed",
+                "createdAt": "2025-11-21T17:40:00.106Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Matthew Thompson",
+        "role": "Mobile Developer",
+        "department": "HR",
+        "email": "matthew.thompson@example.com",
+        "age": 48,
+        "gender": "Female",
+        "bio": "Experienced Mobile Developer with a passion for building scalable solutions. Enjoys coffee and coding.",
+        "avatar": "https://randomuser.me/api/portraits/women/82.jpg",
+        "tasks": [
+            {
+                "id": 3000,
+                "title": "Optimize database queries",
+                "description": "Description for write api documentation",
+                "status": "Completed",
+                "createdAt": "2025-11-18T17:30:33.472Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 3001,
+                "title": "Create mobile layout",
+                "description": "Description for implement dark mode",
+                "status": "In Progress",
+                "createdAt": "2025-11-21T16:07:26.309Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 3002,
+                "title": "Review PR #123",
+                "description": "Description for configure aws s3",
+                "status": "In Progress",
+                "createdAt": "2025-11-19T08:14:38.486Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 3003,
+                "title": "Implement dark mode",
+                "description": "Description for migrate to typescript",
+                "status": "Pending",
+                "createdAt": "2025-11-28T00:21:10.341Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            },
+            {
+                "id": 3004,
+                "title": "Conduct user research",
+                "description": "Description for setup monitoring",
+                "status": "In Progress",
+                "createdAt": "2025-11-25T18:28:45.069Z",
+                "updatedAt": "2025-11-29T09:35:10.432Z"
+            }
+        ]
+    }
+]
