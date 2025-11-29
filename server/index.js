@@ -3,6 +3,8 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { Employee } from './models/Employee.js';
+import authRoutes from './routes/authRoutes.js';
+import { authMiddleware } from './middleware/authMiddleware.js';
 
 // Load environment variables
 dotenv.config();
@@ -28,10 +30,13 @@ if (!MONGODB_URI) {
         });
 }
 
-// Routes
+// Authentication Routes (public)
+app.use('/api/auth', authRoutes);
+
+// Protected Employee Routes (require authentication)
 
 // Get all employees
-app.get('/api/employees', async (req, res) => {
+app.get('/api/employees', authMiddleware, async (req, res) => {
     try {
         const employees = await Employee.find();
         res.json(employees);
@@ -41,7 +46,7 @@ app.get('/api/employees', async (req, res) => {
 });
 
 // Create new employee
-app.post('/api/employees', async (req, res) => {
+app.post('/api/employees', authMiddleware, async (req, res) => {
     try {
         const employee = new Employee(req.body);
         const savedEmployee = await employee.save();
@@ -52,7 +57,7 @@ app.post('/api/employees', async (req, res) => {
 });
 
 // Update employee
-app.put('/api/employees/:id', async (req, res) => {
+app.put('/api/employees/:id', authMiddleware, async (req, res) => {
     try {
         const employee = await Employee.findByIdAndUpdate(
             req.params.id,
@@ -67,7 +72,7 @@ app.put('/api/employees/:id', async (req, res) => {
 });
 
 // Delete employee
-app.delete('/api/employees/:id', async (req, res) => {
+app.delete('/api/employees/:id', authMiddleware, async (req, res) => {
     try {
         const employee = await Employee.findByIdAndDelete(req.params.id);
         if (!employee) return res.status(404).json({ message: 'Employee not found' });
@@ -78,7 +83,7 @@ app.delete('/api/employees/:id', async (req, res) => {
 });
 
 // Add task to employee
-app.post('/api/employees/:id/tasks', async (req, res) => {
+app.post('/api/employees/:id/tasks', authMiddleware, async (req, res) => {
     try {
         const employee = await Employee.findById(req.params.id);
         if (!employee) return res.status(404).json({ message: 'Employee not found' });
@@ -92,7 +97,7 @@ app.post('/api/employees/:id/tasks', async (req, res) => {
 });
 
 // Update task status
-app.patch('/api/employees/:employeeId/tasks/:taskId', async (req, res) => {
+app.patch('/api/employees/:employeeId/tasks/:taskId', authMiddleware, async (req, res) => {
     try {
         const employee = await Employee.findById(req.params.employeeId);
         if (!employee) return res.status(404).json({ message: 'Employee not found' });

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { User, Bell, Palette, Shield, Database, HelpCircle } from 'lucide-react';
 import { useState } from 'react';
+import AccountSettings from '../settings/AccountSettings';
 
 /**
  * Settings View - Application settings and preferences
@@ -73,6 +74,9 @@ const SettingsView = ({ theme, onToggleTheme }) => {
                 </p>
             </div>
 
+            {/* Account Settings Section */}
+            <AccountSettings />
+
             {/* Settings Sections */}
             <div className="space-y-6">
                 {settingsSections.map((section, sectionIndex) => (
@@ -136,38 +140,7 @@ const SettingsView = ({ theme, onToggleTheme }) => {
                 ))}
 
                 {/* Additional Info Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* Account Info */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3 }}
-                        className="bg-white/70 dark:bg-secondary-800/70 backdrop-blur-xl rounded-2xl border border-white/20 dark:border-secondary-700/50 shadow-lg p-6"
-                    >
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="p-2 rounded-lg bg-gradient-to-br from-gray-600 to-gray-800">
-                                <User className="w-5 h-5 text-white" />
-                            </div>
-                            <h2 className="text-xl font-bold text-secondary-900 dark:text-secondary-100">
-                                Account
-                            </h2>
-                        </div>
-                        <div className="space-y-2 text-sm">
-                            <div className="flex justify-between">
-                                <span className="text-secondary-600 dark:text-secondary-400">Name:</span>
-                                <span className="font-semibold text-secondary-900 dark:text-secondary-100">John Doe</span>
-                            </div>
-                            <div className="flex justify-between">
-                                <span className="text-secondary-600 dark:text-secondary-400">Role:</span>
-                                <span className="font-semibold text-secondary-900 dark:text-secondary-100">Admin</span>
-                            </div>
-                            <div className="flex justify-between">
-                                <span className="text-secondary-600 dark:text-secondary-400">Email:</span>
-                                <span className="font-semibold text-secondary-900 dark:text-secondary-100">john@example.com</span>
-                            </div>
-                        </div>
-                    </motion.div>
-
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                     {/* Help & Support */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
