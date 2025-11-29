@@ -16,9 +16,17 @@ app.use(express.json());
 // Connect to MongoDB using environment variable
 const MONGODB_URI = process.env.MONGODB_URI;
 
-mongoose.connect(MONGODB_URI)
-    .then(() => console.log('Connected to MongoDB'))
-    .catch(err => console.error('MongoDB connection error:', err));
+if (!MONGODB_URI) {
+    console.error('ERROR: MONGODB_URI environment variable is not set!');
+    console.error('Please set MONGODB_URI in your Vercel environment variables.');
+} else {
+    mongoose.connect(MONGODB_URI)
+        .then(() => console.log('Connected to MongoDB'))
+        .catch(err => {
+            console.error('MongoDB connection error:', err);
+            console.error('Make sure MONGODB_URI is correctly configured in Vercel.');
+        });
+}
 
 // Routes
 
