@@ -274,9 +274,9 @@ const LandingPage = ({ onGetStarted }) => {
                                 className="flex justify-center"
                             >
                                 <FlipCard
-                                    frontTitle="Hover Me!"
-                                    frontContent="Interactive flip animation"
-                                    backTitle="Amazing!"
+                                    frontTitle="Analytics Dashboard"
+                                    frontContent="Get insights with comprehensive metrics and productivity analytics at a glance"
+                                    backTitle="Available Now"
                                     backContent="Smooth 3D transitions"
                                 />
                             </motion.div>
@@ -315,10 +315,10 @@ const LandingPage = ({ onGetStarted }) => {
                                 className="flex justify-center"
                             >
                                 <FlipCard
-                                    frontTitle="Features"
-                                    frontContent="Modern & Responsive"
-                                    backTitle="Benefits"
-                                    backContent="Boost Productivity"
+                                    frontTitle="Boost Productivity"
+                                    frontContent="Track progress, filter tasks, and manage workflows efficiently in one place"
+                                    backTitle="Available Now"
+                                    backContent="Modern & Responsive"
                                 />
                             </motion.div>
                         </div>

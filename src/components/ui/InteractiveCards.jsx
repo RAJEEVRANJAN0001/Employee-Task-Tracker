@@ -180,15 +180,15 @@ export const FlipCard = ({ frontTitle, backTitle, frontContent, backContent }) =
         <div className="flip-card w-[300px] h-[200px]" style={{ perspective: '1000px' }}>
             <div className="flip-card-inner w-full h-full relative transition-transform duration-1000" style={{ transformStyle: 'preserve-3d' }}>
                 {/* Front */}
-                <div className="flip-card-front absolute w-full h-full bg-gradient-to-br from-purple-600 to-purple-800 text-white flex flex-col items-center justify-center border-[10px] border-purple-600 rounded-xl text-2xl font-bold" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(0deg)' }}>
-                    <p className="mb-2">{frontTitle}</p>
-                    {frontContent && <p className="text-sm font-normal">{frontContent}</p>}
+                <div className="flip-card-front absolute w-full h-full bg-gradient-to-br from-sky-500 to-sky-700 text-white flex flex-col items-center justify-center border-[10px] border-sky-600 rounded-xl text-xl font-bold p-4" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(0deg)' }}>
+                    <p className="mb-2 text-center">{frontTitle}</p>
+                    {frontContent && <p className="text-sm font-normal text-center">{frontContent}</p>}
                 </div>
 
                 {/* Back */}
-                <div className="flip-card-back absolute w-full h-full bg-gradient-to-br from-orange-500 to-orange-600 text-white flex flex-col items-center justify-center border-[10px] border-orange-500 rounded-xl text-2xl font-bold" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
-                    <p className="mb-2">{backTitle}</p>
-                    {backContent && <p className="text-sm font-normal">{backContent}</p>}
+                <div className="flip-card-back absolute w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 text-white flex flex-col items-center justify-center border-[10px] border-gray-700 rounded-xl text-xl font-bold p-4" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
+                    <p className="mb-2 text-center">{backTitle}</p>
+                    {backContent && <p className="text-sm font-normal text-center">{backContent}</p>}
                 </div>
             </div>
 
